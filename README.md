@@ -26,5 +26,5 @@ OrbitML is a fully containerized platform that standardizes the entire machine l
 ### Clone the Repo
 
 ```bash
-git clone https://github.com/your-org/orbitml.git
-cd orbitml
+git clone https://github.com/tarun2684/OrbitML.git
+cd OrbitML
