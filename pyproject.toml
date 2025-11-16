@@ -1,0 +1,37 @@
+[project]
+name = "orbitml"
+version = "0.1.0"
+description = "Modular ML + Container Orchestration Toolkit"
+authors = [
+    {name = "Tarun",email = "tarune2684@gmail.com"}
+]
+license = {text = "Apache-2.0"}
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.poetry.dependencies]
+python = "^3.12"
+click = "^8.1.0"
+pyyaml = "^6.0"
+docker = "^6.0.0"
+pydantic = "^2.0.0"
+rich = "^13.0.0"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0.0"
+black = "^24.0.0"
+flake8 = "^7.0.0"
+pre-commit = "^3.0.0"
+
+
+[tool.poetry.scripts]
+orbitml = "orbitml.cli.main:cli"

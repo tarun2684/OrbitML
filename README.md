@@ -1,4 +1,4 @@
-# OrbitML 🚀  
+# OrbitML 🚀
 **Portable AI Model Training & Deployment System**
 
 OrbitML is a fully containerized platform that standardizes the entire machine learning lifecycle — from data preparation to training, evaluation, and deployment. Designed for portability and reproducibility, OrbitML runs seamlessly across local machines, cloud infrastructure, and on-premises servers using Docker.
